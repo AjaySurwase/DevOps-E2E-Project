@@ -32,7 +32,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://github.com/AjaySurwase/Jenkins_Shared_Lib.git","main")
+                    code_checkout("https://github.com/AjaySurwase/DevOps-E2E-Project.git","main")
                 }
             }
         }
